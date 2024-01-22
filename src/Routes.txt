@@ -2,12 +2,12 @@ POST
 /login
 /logout
 /createUser
-/api/products/add
+/api/products/add |ok
 /api/cart/checkout
 
 GET
-/api/products
-/api/products/{itemID}
+/api/products |ok
+/api/products/{itemID} |ok
 /api/products/search
 /api/cart
 
@@ -15,5 +15,5 @@ PUT
 /api/products/update/{productID}
 
 Delete
-/api/products/delete/{productID}
+/api/products/delete/{productID} |ok
 /api/cart/remove/{itemID}
