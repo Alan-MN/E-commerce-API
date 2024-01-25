@@ -8,7 +8,9 @@ POST
 
 GET
 /api/products
+
 /api/products/search/{productId}
+
 /seeUsers
 
 PUT
