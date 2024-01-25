@@ -8,7 +8,7 @@ POST
 GET
 /api/products |ok
 /api/products/{itemID} |ok
-/api/products/search
+/api/products/search |ok gambi
 /api/cart
 
 PUT
